@@ -1,6 +1,7 @@
 import React from 'react';
 import { Clock } from "./components/clock/Clock";
 import { Toggle } from "./components/clock/Toggle";
+import { LoginControl } from "./components/login/Login";
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Clock></Clock>
       <Toggle></Toggle>
+      <LoginControl></LoginControl>
     </div>
   );
 }
